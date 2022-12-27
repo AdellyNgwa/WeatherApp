@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>SheCodesPlus W2 Homework</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 35rem; margin-top: 3rem;">
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <form class="search-form" id="search-form">
+            <input
+              class="form-control me-2"
+              id="city-input"
+              type="searchCity"
+              placeholder="Enter a city..."
+              autofocus="on"
+              aria-label="Search"
+            />
+            <input type="submit" value="search" />
+          </form>
+          <h1 id="city">Abuja⛅</h1>
+          <h2>
+            <div class="float-left">
+              <span class="temperature" id="temperature">°C </span>
+            </div>
+          </h2>
+
+          <p id="date">Thursday 21:09</p>
+          <p>
+            Humidity: <span id="humidity">75</span>% <br />
+            Wind 9 km/h
+          </p>
+          <div class="card-text">
+            <div class="row">
+              <div class="col">
+                Fri <br />
+                ☀️ <br />
+                24°C 20°C
+              </div>
+              <div class="col">
+                Sat <br />
+                ⛅ <br />
+                21°C 19°C
+              </div>
+              <div class="col">
+                Sun <br />
+                ☀️ <br />
+                23°C 20°C
+              </div>
+              <div class="col">
+                Mon <br />
+                ⛅ <br />
+                20°C 17°C
+              </div>
+              <div class="col">
+                Tue <br />
+                ☀️ <br />
+                24°C 20°C
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer"><a href =https://github.com/AdellyNgwa/WeatherApp>Open-source code</a> Designed by Adela Ngwa</p>
+    <script src="src/index.js"></script>
+  </body>
+</html>
